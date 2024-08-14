@@ -1,69 +1,554 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Curriculum Axel G.</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">    
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon" >
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CURRICULUM</title>
-  
-</head>
-<body>
-    <h1> CURRICULUM VITAE </h1>
-<img src="./assets/img/AAA_0413.jpg "width="auto" height="190px" alt="foto_de_perfil">
     
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-<h2>Axel Garrido</h2>
-<h2>Diseñador Gráfico</h2>
+   
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 
-<h3>Sobre mi</h3>
-<p>Diseñador gráfico y fotógrafo con 13
-    años de experiencia en retratos,
-    deportes, matrimonios y eventos, se
-    especializa en retoque digital
-    avanzado con IA. <br> Lideré un equipo
-    durante 3 años, donde pude
-    desarrollar mis habilidades blandas y
-    la gestión de equipos.</p>
+    
+    <link href="assets/js/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/js/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/js/aos/aos.css" rel="stylesheet">
+    <link href="assets/js/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/js/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+</head>
 
-    <h2>Experiencia</h2>
-<h4>Editor Fotográfico / Team Lead at Vacasa</h4>
-<h5>Ene 2018 - May 2024</h5>
-<p>Senior Editor para Rental State / Vacation State Industry
-    Team Lead de Onboarding Photography Team.</p>
+<body class="index-page">
 
-    <h4>Manager Fotógrafo y Editor Kaufmann Catalogo</h4>
-<h5>Dic 2018 - Sep 2024</h5>
-<p>A cargo de la fotografía y la edición en catálogo digital de
-    Kaufmann <a href="https://www.kaufparts.cl" target="_blank">Catalogo Digital</a>  .</p>
+    <header id="header" class="header dark-background d-flex flex-column">
+        <i class="header-toggle d-xl-none bi bi-list"></i>
 
-    <h4>Diseñador y Fotografo</h4>
-    <h5>Dic 2017 - Oct 2019</h5>
-    <p>A cargo de todas las fotografiás para diseño web y para catálogos
-        digitales.</p>    
+        <div class="profile-img">
+            <img src="assets/img/my-profile-img.jpg" alt="" class="img-fluid rounded-circle">
+        </div>
 
-<h2>Habilidades</h2>
-<ul>
-    <li>Adobe Photoshop</li>
-    <li>Adobe Lightroom</li>
-    <li>Adobe Illustrator</li>
-    <li>Adobe Firefly</li>
-    <li>Retoque Digital High End</li>
-    <li>Diseño de Marca Coorporativa</li>
-    <li>Diseño para medios digitales e impresos</li>
-</ul>
-<h3>Estudios</h3>
-<ol>
-    <li>Tec Diseño Grafico - DuocUC</li>
-    <li>Fotografo Profesional</li>
-    <li>Retocador Digital High End</li>
-</ol>
+        <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+            <h1 class="sitename">Axel Garrido</h1>
+        </a>
 
- <p>Puedes visitar mi <a href="./portafolio.html" target="_blank">Portafolio</a>  para conocer mas de mi trabajo</p> 
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <div class="social-links text-center">
+            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        </div>
+
+        <nav id="navmenu" class="navmenu">
+            <ul>
+                <li><a href="#inicio" class="active"><i class="bi bi-house navicon"></i>Inicio</a></li>
+                <li><a href="#hablemos"><i class="bi bi-person navicon"></i>Hablemos de mi</a></li>
+                <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+                <li><a href="#portafolio"><i class="bi bi-images navicon"></i> Portafolio</a></li>
+                <li><a href="#servicios"><i class="bi bi-hdd-stack navicon"></i> Servicios</a></li>
+                <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+
+        
+        <section id="hero" class="hero section dark-background">
+
+            <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in" class="">
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <h2>Axel Garrido</h2>
+                <p>Soy <span class="typed" data-typed-items="Diseñador, Fotografo, Desarrollador,">Designer</span><span
+                        class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span
+                        class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+            </div>
+
+        </section>
+        <section id="about" class="about section">
+
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Acerca de mi</h2>
+                <p>Diseñador gráfico y fotógrafo con 13 años de experiencia en retratos, deportes, matrimonios y
+                    eventos, se especializa en retoque digital avanzado con IA.
+                    Lideré un equipo durante 3 años, donde pude desarrollar mis habilidades blandas y la gestión de
+                    equipos.</p>
+            </div>
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="row gy-4 justify-content-center">
+                    <div class="col-lg-4">
+                        <img src="assets/img/my-profile-img.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-lg-8 content">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <ul>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Cumpleaños:</strong> <span>20 Abril
+                                            1986</span></li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong>
+                                        <span>www.axelgarrido.cl</span>
+                                    </li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Fono:</strong> <span>+56 9
+                                            95749625</span></li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Ciudad:</strong> <span>Viña del
+                                            Mar</span></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6">
+                                <ul>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Edad:</strong> <span>38</span></li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong>
+                                        <span>contacto@axelgarrido.cl</span>
+                                    </li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong>
+                                        <span>Disponible</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="stats" class="stats section">
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="row gy-4">
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="stats-item">
+                            <i class="bi bi-emoji-smile"></i>
+                            <span data-purecounter-start="0" data-purecounter-end="23" data-purecounter-duration="1"
+                                class="purecounter"></span>
+                            <p><strong>Clientes felices</strong> <span>menos mal</span></p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="stats-item">
+                            <i class="bi bi-journal-richtext"></i>
+                            <span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1"
+                                class="purecounter"></span>
+                            <p><strong>Proyectos</strong> <span>terminados</span></p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="stats-item">
+                            <i class="bi bi-headset"></i>
+                            <span data-purecounter-start="0" data-purecounter-end="531" data-purecounter-duration="1"
+                                class="purecounter"></span>
+                            <p><strong>Conversaciones</strong> <span>de correcciones</span></p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="stats-item">
+                            <i class="bi bi-people"></i>
+                            <span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1"
+                                class="purecounter"></span>
+                            <p><strong>Solo somos dos</strong> <span>en mi equipo</span></p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="skills" class="skills section light-background">
+
+
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Habilidades</h2>
+                <p>Enfoquemonos en la parte de las Skills</p>
+            </div>
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="row skills-content skills-animation">
+
+                    <div class="col-lg-6">
+
+                        <div class="progress">
+                            <span class="skill"><span>HTML</span> <i class="val">97%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="97" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="progress">
+                            <span class="skill"><span>CSS</span> <i class="val">90%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="progress">
+                            <span class="skill"><span>Photoshop</span> <i class="val">100%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-6">
+
+                        <div class="progress">
+                            <span class="skill"><span>Illustrator</span> <i class="val">100%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="progress">
+                            <span class="skill"><span>WordPress/CMS</span> <i class="val">96%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="96" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="progress">
+                            <span class="skill"><span>Bootstrap</span> <i class="val">89%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="89" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+       
+        <section id="resume" class="resume section">
+
+           
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Resumen</h2>
+                <p>Con más de una década de experiencia en la fotografía profesional, me he especializado en capturar la
+                    esencia de cada momento, desde retratos hasta eventos significativos. En Axel Garrido Fotógrafo, mi
+                    empresa, aporto una visión única que enriquece cada proyecto con técnica y creatividad. Mi dominio
+                    del retoque digital eleva la calidad visual a estándares de alta gama, trabajando con clientes tanto
+                    nacionales como internacionales.
+                    Mi misión es fusionar arte y tecnología, utilizando herramientas de inteligencia artificial para
+                    perfeccionar la imagen y contar historias a través de ella. El liderazgo de equipos y la
+                    comunicación efectiva han sido habilidades clave en mi trayectoria, permitiéndome colaborar y crecer
+                    junto a otros profesionales. Me motiva la búsqueda constante de la perfección visual y el compromiso
+                    con la innovación en cada aspecto de mi trabajo.
+                    Actualmente me encuentro estudiando Desarrollo Fullstack React que es un area que siempre me ha
+                    apasionado y que quiero mezclar con el diseño grafico y la fotografia para poder llevar proyectos
+                    webs con nuevas visiones.</p>
+            </div>
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                        <h3 class="resume-title">Sumary</h3>
+
+                        <div class="resume-item pb-0">
+                            <h4>Brandon Johnson</h4>
+                            <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing
+                                    and developing user-centered digital/print marketing material from initial concept
+                                    to final, polished deliverable.</em></p>
+                            <ul>
+                                <li>Portland par 127,Orlando, FL</li>
+                                <li>(123) 456-7891</li>
+                                <li>alice.barkley@example.com</li>
+                            </ul>
+                        </div>
+
+                        <h3 class="resume-title">Education</h3>
+                        <div class="resume-item">
+                            <h4>Master of Fine Arts &amp; Graphic Design</h4>
+                            <h5>2015 - 2016</h5>
+                            <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
+                            <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero
+                                voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
+                            <h5>2010 - 2014</h5>
+                            <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
+                            <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel
+                                ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae
+                                consequatur neque etlon sader mart dila</p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                        <h3 class="resume-title">Professional Experience</h3>
+                        <div class="resume-item">
+                            <h4>Senior graphic design specialist</h4>
+                            <h5>2019 - Present</h5>
+                            <p><em>Experion, New York, NY </em></p>
+                            <ul>
+                                <li>Lead in the design, development, and implementation of the graphic, layout, and
+                                    production communication materials</li>
+                                <li>Delegate tasks to the 7 members of the design team and provide counsel on all
+                                    aspects of the project. </li>
+                                <li>Supervise the assessment of all graphic materials in order to ensure quality and
+                                    accuracy of the design</li>
+                                <li>Oversee the efficient use of production project budgets ranging from $2,000 -
+                                    $25,000</li>
+                            </ul>
+                        </div>
+
+                        <div class="resume-item">
+                            <h4>Graphic design specialist</h4>
+                            <h5>2017 - 2018</h5>
+                            <p><em>Stepping Stone Advertising, New York, NY</em></p>
+                            <ul>
+                                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations,
+                                    and advertisements).</li>
+                                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
+                                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
+                                <li>Created 4+ design presentations and proposals a month for clients and account
+                                    managers</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        
+        <section id="portfolio" class="portfolio section light-background">
+
+            
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Portfolio</h2>
+
+            </div>
+
+            <div class="container">
+
+                <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+
+
+                    <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>App 1</h4>
+                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                                    <a href="assets/img/portfolio/app-1.jpg" title="App 1"
+                                        data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                    <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                            class="bi bi-link-45deg"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Product 1</h4>
+                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                                    <a href="assets/img/portfolio/product-1.jpg" title="Product 1"
+                                        data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                    <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                            class="bi bi-link-45deg"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/portfolio/branding-1.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Branding 1</h4>
+                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                                    <a href="assets/img/portfolio/branding-1.jpg" title="Branding 1"
+                                        data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                    <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                            class="bi bi-link-45deg"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/portfolio/books-1.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Books 1</h4>
+                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                                    <a href="assets/img/portfolio/books-1.jpg" title="Branding 1"
+                                        data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                    <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                            class="bi bi-link-45deg"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact" class="contact section">
+
+            
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Contact</h2>
+                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            </div>
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="row gy-4">
+
+                    <div class="col-lg-5">
+
+                        <div class="info-wrap">
+                            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                                <div>
+                                    <h3>Address</h3>
+                                    <p>A108 Adam Street, New York, NY 535022</p>
+                                </div>
+                            </div>
+
+                            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                                <i class="bi bi-telephone flex-shrink-0"></i>
+                                <div>
+                                    <h3>Call Us</h3>
+                                    <p>+1 5589 55488 55</p>
+                                </div>
+                            </div>
+
+                            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                                <i class="bi bi-envelope flex-shrink-0"></i>
+                                <div>
+                                    <h3>Email Us</h3>
+                                    <p>info@example.com</p>
+                                </div>
+                            </div>
+
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus"
+                                frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen=""
+                                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7">
+                        <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
+                            data-aos-delay="200">
+                            <div class="row gy-4">
+
+                                <div class="col-md-6">
+                                    <label for="name-field" class="pb-2">Your Name</label>
+                                    <input type="text" name="name" id="name-field" class="form-control" required="">
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label for="email-field" class="pb-2">Your Email</label>
+                                    <input type="email" class="form-control" name="email" id="email-field" required="">
+                                </div>
+
+                                <div class="col-md-12">
+                                    <label for="subject-field" class="pb-2">Subject</label>
+                                    <input type="text" class="form-control" name="subject" id="subject-field"
+                                        required="">
+                                </div>
+
+                                <div class="col-md-12">
+                                    <label for="message-field" class="pb-2">Message</label>
+                                    <textarea class="form-control" name="message" rows="10" id="message-field"
+                                        required=""></textarea>
+                                </div>
+
+                                <div class="col-md-12 text-center">
+                                    <div class="loading">Loading</div>
+                                    <div class="error-message"></div>
+                                    <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                                    <button type="submit">Send Message</button>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer id="footer" class="footer position-relative light-background">
+
+        <div class="container">
+            <div class="copyright text-center ">
+                <p>© <span>Copyright</span> <strong class="px-1 sitename">Axel Garrido</strong></p>
+            </div>
+        </div>
+    </footer>
+    
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+    
+    <div id="preloader"></div>
+   
+    <script src="assets/js/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/php-email-form/validate.js"></script>
+    <script src="assets/js/aos/aos.js"></script>
+    <script src="assets/js/typed.js/typed.umd.js"></script>
+    <script src="assets/js/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/js/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/js/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/js/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/js/swiper/swiper-bundle.min.js"></script>
+
+    
+    <script src="assets/java/main.js"></script>
+
 </body>
+
 </html>
-
-
