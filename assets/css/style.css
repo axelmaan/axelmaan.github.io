@@ -1224,3 +1224,6 @@
     margin-right: 8px;
     color: var(--accent-color);
   }
+.accordion-body img {
+  width: 50%;
+}
